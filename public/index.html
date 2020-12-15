@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <button id="volver">Volver</button>
+      <label class="who"></label>
+      <input
+        id="whoIs"
+        class="who"
+        type="text"
+        placeholder="¿Quién es el asesino?"
+      />
+      <button id="whoIsHim">?</button>
+    </header>
+    <section id="win"></section>
+
+    <ul id="persons">
+      <li class="men">
+        <button id="willyButton">Willy</button>
+        <section class="willy" id="willytexto">
+          <h1>Willy</h1>
+          <p>
+            Willy es un carnicero, de unos 40 años de baja estatura, de ojos
+            azules. Es un señor algo grotesco, con un deje violento, cuyos
+            tatuajes potencian más. Tiene el brazo izquierdo vendado y algo de
+            cojera.
+          </p>
+          <button id="willySeguir">Seguir</button>
+        </section>
+        <section id="dialogoW"></section>
+      </li>
+      <li class="men">
+        <button id="ivanButton">Iván</button>
+        <section class="ivan" id="ivantexto">
+          <h1>Iván</h1>
+          <p>
+            Iván es un estudiante de programación a la vez que trabaja de
+            camarero en una cafetería del centro. Se mantiene a duras penas con
+            el sueldo por lo que suele hacer horas extra. Tiene unos 30 años, es
+            alto, de pelo rizado y ojos marrones.
+          </p>
+          <button id="ivanSeguir">Seguir</button>
+        </section>
+        <section id="dialogoI"></section>
+      </li>
+      <li class="men">
+        <button id="ramiroButton">Ramiro</button>
+        <section class="ramiro" id="ramirotexto">
+          <h1>Ramiro</h1>
+          <p>
+            Ramiro es relojero, heredero de la tienda de su madre. Su pasión son
+            los relojes y las navajas. Tiene una mirada cansada, cuyos ojos
+            azules parecen nunca mirar nada más que a los relojes, de una
+            elevada estatura y una vestimenta añeja. Estaba casado con Eva.
+          </p>
+          <button id="ramiroSeguir">Seguir</button>
+        </section>
+        <section id="dialogoR"></section>
+      </li>
+      <li class="lady">
+        <button id="evaButton">Eva</button>
+        <section class="eva" id="evatexto">
+          <h1>Eva</h1>
+          <p>
+            Eva es la ex-mujer del relojero. Hace menos de medio año que se
+            separaron. Nadie supo el porqué. No tiene un oficio en concreto,
+            aunque terminó la carrera de química. Es más pequeña que su
+            ex-marido, de pelo negro liso, con una mirada fría, de un marrón
+            oscuro, y un tatuaje en el cuello.
+          </p>
+          <button id="evaSeguir">Seguir</button>
+        </section>
+        <section id="dialogoE"></section>
+      </li>
+      <li class="lady">
+        <button id="silviaButton">Silvia</button>
+        <section class="silvia" id="silviatexto">
+          <h1>Silvia</h1>
+          <p>
+            Silvia es nueva en el pueblo. Trabaja en la frutería. Poco se sabe
+            de dónde vino, salvo que se fugó de casa de sus padres. Tiene 16
+            años. Es una chica alta, peliroja, con unos llamativos ojos verdes,
+            y un leopardo en el brazo tatuado.
+          </p>
+          <button id="silviaSeguir">Seguir</button>
+        </section>
+        <section id="dialogoS"></section>
+      </li>
+    </ul>
+    <script src="./js/index.js"></script>
+    <script src="./js/eva.js"></script>
+    <script src="./js/ivan.js"></script>
+    <script src="./js/ramiro.js"></script>
+    <script src="./js/silvia.js"></script>
+    <script src="./js/willy.js"></script>
+  </body>
+</html>
